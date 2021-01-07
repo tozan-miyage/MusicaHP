@@ -1,0 +1,19 @@
+header {
+  .header {
+    padding: 1rem;
+
+    .header-wrapper {
+      border: solid 1px black;
+      padding: .5rem;
+
+      .main-logo {
+          width: 10rem;
+          margin: 0 auto;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

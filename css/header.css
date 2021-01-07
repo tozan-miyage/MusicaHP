@@ -1,0 +1,18 @@
+header .header {
+  padding: 1rem;
+}
+
+header .header .header-wrapper {
+  border: solid 1px black;
+  padding: .5rem;
+}
+
+header .header .header-wrapper .main-logo {
+  width: 10rem;
+  margin: 0 auto;
+}
+
+header .header .header-wrapper .main-logo img {
+  width: 100%;
+}
+/*# sourceMappingURL=header.css.map */
