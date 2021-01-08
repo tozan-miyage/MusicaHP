@@ -1,0 +1,50 @@
+// #top {
+//   .top-image {
+//     position: relative;
+//     width: 100%; /* 背景の大きさに変更 */
+//     height: 170px;
+//     margin: auto;
+//     background: #ffffff;
+
+//     & ::before {
+//       display: block;
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       right: 0;
+//       bottom: 0;
+//       left: 0;
+//       background-image: url(../images/top/top1.png); /* 使用する画像を指定 */
+//       animation: bgAnime 30s linear infinite;
+//     }
+//   }
+
+//   @keyframes bgAnime {
+//     0% {
+//       background-position: 0 0;
+//     }
+//     /* 使用する画像幅と画像高さのpxに変更ください */
+//     100% {
+//       background-position: 500px 0;
+//     }
+//   }
+// }
+
+
+.top {
+    margin: 0 0 1rem;
+    // padding: 1rem;
+
+    .top-image{
+
+        .top-image-wrapper{
+            overflow: hidden;
+            padding:0 1rem;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}

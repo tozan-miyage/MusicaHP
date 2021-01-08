@@ -1,18 +1,110 @@
+@charset "UTF-8";
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
 header .header {
   padding: 1rem;
 }
 
 header .header .header-wrapper {
-  border: solid 1px black;
-  padding: .5rem;
+  border: solid 1px gray;
+  padding: 0.6rem;
 }
 
 header .header .header-wrapper .main-logo {
-  width: 10rem;
+  width: 12rem;
   margin: 0 auto;
 }
 
 header .header .header-wrapper .main-logo img {
   width: 100%;
+}
+
+header .navi {
+  position: relative;
+  padding: 0 0 10px 0;
+}
+
+header .navi .navi-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+header .navi .navi-wrapper ul {
+  width: 100%;
+  overflow: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1060px;
+  /* メニューの最大幅 */
+  min-width: 1000px;
+  /* メニューの最小幅 */
+  height: 35px;
+  line-height: 1.5;
+  margin: 0 auto;
+  list-style: none;
+  padding-right: 50px;
+  /* 右側の固定分余白を空ける */
+}
+
+header .navi .navi-wrapper ul li {
+  width: 350px;
+  /* メニューの個別の幅 */
+  text-align: center;
+  margin: auto;
+}
+
+header .navi .navi-wrapper ul li + li {
+  border-left: solid 1px gray;
+}
+
+header .navi .navi-wrapper ul .small-font {
+  font-size: small;
+  padding: 4px 0 0 0;
+}
+
+header .navi .next-btn {
+  /* 右側に固定する部分 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  /* 固定部分の幅 */
+  height: 35px;
+  /* メニューの高さに合わせる */
+  line-height: 40px;
+  background: #fff;
+  color: #555;
+  padding: 4px;
+}
+
+header .navi .next-btn img {
+  display: block;
+  width: 60%;
+  margin: 6px auto;
+}
+
+@media only screen and (min-width: 771px) {
+  /* PCサイズでの指定 */
+  header .navi {
+    position: relative;
+  }
+  header .navi .navi-wrapper ul {
+    padding: 0;
+  }
+  header .navi .navi-wrapper ul li {
+    width: 14.2%;
+    /* メニューの個別の幅 */
+  }
+  header .navi .next-btn {
+    display: none;
+    /* 右側の固定部分を非表示 */
+  }
 }
 /*# sourceMappingURL=header.css.map */

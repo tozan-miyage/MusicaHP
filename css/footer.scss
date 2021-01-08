@@ -1,0 +1,36 @@
+footer {
+  .info {
+    padding: 1rem;
+
+    p {
+      line-height: 1.4;
+      font-size: small;
+    }
+  }
+
+  .info-buttons {
+    justify-content: center;
+    
+    .button {
+      padding: 6px;
+
+      .tel,
+      .book-instagram,
+      .google-map {
+        border: solid 1px black;
+        height: 38px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 38px;
+      }
+    }
+
+  }
+    .copy-right{
+        text-align: center;
+        color:white;
+        background-color: black;
+        padding: .8rem;
+        font-size: small;
+    }
+}

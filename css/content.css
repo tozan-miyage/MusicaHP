@@ -1,0 +1,45 @@
+.content {
+  padding: 0 1rem;
+}
+
+.content .content-wrapper .content-headding {
+  margin: 2rem 0;
+}
+
+.content .content-wrapper .content-headding h2 {
+  font-size: large;
+  text-align: center;
+}
+
+.content .content-wrapper .content-headding h2 span {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.content .content-wrapper .concept {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content .content-wrapper .concept h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 2;
+  color: black;
+}
+
+.content .content-wrapper .content-sentence p {
+  line-height: 1.6;
+  margin: 2rem 1rem;
+  font-weight: 100;
+}
+
+#salon {
+  background-image: url(../images/back-ground/bg_green_blur.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+}
+/*# sourceMappingURL=content.css.map */

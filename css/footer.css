@@ -1,0 +1,37 @@
+footer .info {
+  padding: 1rem;
+}
+
+footer .info p {
+  line-height: 1.4;
+  font-size: small;
+}
+
+footer .info-buttons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .info-buttons .button {
+  padding: 6px;
+}
+
+footer .info-buttons .button .tel,
+footer .info-buttons .button .book-instagram,
+footer .info-buttons .button .google-map {
+  border: solid 1px black;
+  height: 38px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 38px;
+}
+
+footer .copy-right {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: .8rem;
+  font-size: small;
+}
+/*# sourceMappingURL=footer.css.map */
