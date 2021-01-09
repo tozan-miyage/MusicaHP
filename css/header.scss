@@ -5,11 +5,11 @@ header {
   background-color: #fff;
 
   .header {
-    padding: 1rem;
+    padding: 1rem 0 ;
 
     .header-wrapper {
       border: solid 1px gray;
-      padding: 0.6rem;
+      padding: 0.6rem 0;
 
       .main-logo {
         width: 12rem;
@@ -34,12 +34,12 @@ header {
         overflow: scroll;
         display: flex;
         max-width: 1060px; /* メニューの最大幅 */
-        min-width: 1000px; /* メニューの最小幅 */
+        min-width: 700px; /* メニューの最小幅 */
         height: 35px;
         line-height: 1.5;
         margin: 0 auto;
         list-style: none;
-        padding-right: 50px; /* 右側の固定分余白を空ける */
+        padding-right: 20px; /* 右側の固定分余白を空ける */
 
         li {
           //   float: left;
@@ -48,9 +48,9 @@ header {
           margin: auto;
           //   display: inline-block;
 
-          & + li {
-            border-left: solid 1px gray;
-          }
+        //   & + li {
+        //     border-left: solid 1px gray;
+        //   }
         }
 
         .small-font {
@@ -62,14 +62,14 @@ header {
     .next-btn {
       /* 右側に固定する部分 */
       position: absolute;
-      top: 0;
-      right: 0;
-      width: 35px; /* 固定部分の幅 */
-      height: 35px; /* メニューの高さに合わせる */
+      top: 5px;
+      right: -10px;
+      width: 20px; /* 固定部分の幅 */
+      height: 20px; /* メニューの高さに合わせる */
       line-height: 40px;
       background: #fff;
       color: #555;
-      padding: 4px;
+      padding: 2px;
       //   opacity: .8;
 
       img {

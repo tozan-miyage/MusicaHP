@@ -8,12 +8,12 @@ header {
 }
 
 header .header {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 header .header .header-wrapper {
   border: solid 1px gray;
-  padding: 0.6rem;
+  padding: 0.6rem 0;
 }
 
 header .header .header-wrapper .main-logo {
@@ -43,13 +43,13 @@ header .navi .navi-wrapper ul {
   display: flex;
   max-width: 1060px;
   /* メニューの最大幅 */
-  min-width: 1000px;
+  min-width: 700px;
   /* メニューの最小幅 */
   height: 35px;
   line-height: 1.5;
   margin: 0 auto;
   list-style: none;
-  padding-right: 50px;
+  padding-right: 20px;
   /* 右側の固定分余白を空ける */
 }
 
@@ -60,10 +60,6 @@ header .navi .navi-wrapper ul li {
   margin: auto;
 }
 
-header .navi .navi-wrapper ul li + li {
-  border-left: solid 1px gray;
-}
-
 header .navi .navi-wrapper ul .small-font {
   font-size: small;
   padding: 4px 0 0 0;
@@ -72,16 +68,16 @@ header .navi .navi-wrapper ul .small-font {
 header .navi .next-btn {
   /* 右側に固定する部分 */
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 35px;
+  top: 5px;
+  right: -10px;
+  width: 20px;
   /* 固定部分の幅 */
-  height: 35px;
+  height: 20px;
   /* メニューの高さに合わせる */
   line-height: 40px;
   background: #fff;
   color: #555;
-  padding: 4px;
+  padding: 2px;
 }
 
 header .navi .next-btn img {
