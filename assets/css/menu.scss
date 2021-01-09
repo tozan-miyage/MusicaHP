@@ -1,0 +1,38 @@
+#menu {
+  .content-headding {
+    p {
+      text-align: center;
+      margin: 1rem 0;
+      font-size: small;
+    }
+  }
+  .menu-hedding {
+    width: 90%;
+    padding: 1rem 0;
+    text-align: center;
+    border: solid gray;
+    border-width: 1px 0 1px 0;
+
+    & ::after {
+      content: "(シャンプー・スタイリング込)";
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+  }
+
+  .menu-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 14px;
+
+    .menu {
+        color:black;
+    }
+  }
+}

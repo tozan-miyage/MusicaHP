@@ -1,0 +1,41 @@
+@charset "UTF-8";
+#menu .content-headding p {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: small;
+}
+
+#menu .menu-hedding {
+  width: 90%;
+  padding: 1rem 0;
+  text-align: center;
+  border: solid gray;
+  border-width: 1px 0 1px 0;
+}
+
+#menu .menu-hedding ::after {
+  content: "(シャンプー・スタイリング込)";
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+#menu .menu-hedding h3 {
+  font-size: 18px;
+}
+
+#menu .menu-price-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 2rem auto;
+  font-size: 14px;
+}
+
+#menu .menu-price-wrapper .menu {
+  color: black;
+}
+/*# sourceMappingURL=menu.css.map */

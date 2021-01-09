@@ -1,11 +1,11 @@
 header {
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
   z-index: 1;
   background-color: #fff;
 
   .header {
-    padding: 1rem 0 ;
+    padding: 1rem 0;
 
     .header-wrapper {
       border: solid 1px gray;
@@ -48,9 +48,9 @@ header {
           margin: auto;
           //   display: inline-block;
 
-        //   & + li {
-        //     border-left: solid 1px gray;
-        //   }
+          //   & + li {
+          //     border-left: solid 1px gray;
+          //   }
         }
 
         .small-font {
