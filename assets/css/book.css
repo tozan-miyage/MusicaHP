@@ -1,18 +1,18 @@
-#menu {
+#book {
   line-height: 1.4;
 }
 
-#menu .content-wrapper {
+#book .content-wrapper {
   margin-top: 2rem;
 }
 
-#menu .content-wrapper .content-headding p {
+#book .content-wrapper .content-headding p {
   text-align: center;
   margin: 1rem 0;
   font-size: small;
 }
 
-#menu .menus .supplement {
+#book .menus .supplement {
   font-size: 11px;
   font-weight: 100;
   line-height: 1.4;
@@ -20,20 +20,7 @@
   margin: 6px auto;
 }
 
-#menu .menus .menu-hedding {
-  width: 90%;
-  padding: 1.4rem 0 1rem;
-  text-align: center;
-  border: solid gray;
-  border-width: 1px 0 1px 0;
-  margin: 3rem auto;
-}
-
-#menu .menus .menu-hedding h3 {
-  font-size: 18px;
-}
-
-#menu .menus .menu-price-wrapper {
+#book .menus .menu-book-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,28 +34,20 @@
   font-size: 14px;
 }
 
-#menu .menus .menu-price-wrapper .menu {
+#book .menus .menu-book-wrapper .menu {
   color: black;
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
 }
 
-#menu .menus .menu-price-wrapper .price {
+#book .menus .menu-book-wrapper .price {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   text-align: right;
 }
 
-#menu .menus .menu-price-wrapper .supplement-box {
+#book .menus .menu-book-wrapper .supplement-box {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
-
-#menu .menus .front-mainte {
-  margin-bottom: 0;
-}
-
-#menu .menus .front-new {
-  margin-top: 0;
-}
-/*# sourceMappingURL=menu.css.map */
+/*# sourceMappingURL=book.css.map */

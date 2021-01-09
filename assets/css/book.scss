@@ -1,8 +1,8 @@
-#menu {
+#book {
   line-height: 1.4;
 
   .content-wrapper {
-      margin-top: 2rem;
+    margin-top: 2rem;
     .content-headding {
       p {
         text-align: center;
@@ -21,20 +21,7 @@
       margin: 6px auto;
     }
 
-    .menu-hedding {
-      width: 90%;
-      padding: 1.4rem 0 1rem;
-      text-align: center;
-      border: solid gray;
-      border-width: 1px 0 1px 0;
-      margin: 3rem auto;
-
-      h3 {
-        font-size: 18px;
-      }
-    }
-
-    .menu-price-wrapper {
+    .menu-book-wrapper {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -56,12 +43,6 @@
       .supplement-box {
         flex-basis: 100%;
       }
-    }
-    .front-mainte {
-      margin-bottom: 0;
-    }
-    .front-new {
-      margin-top: 0;
     }
   }
 }
