@@ -1,0 +1,97 @@
+#stylist {
+  line-height: 1.4;
+}
+
+#stylist .content-wrapper {
+  margin-top: 2rem;
+}
+
+#stylist .content-wrapper .content-headding p {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: small;
+}
+
+#stylist #self-introduction {
+  margin-top: 3rem;
+}
+
+#stylist .stylist-imgbox {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+#stylist .stylist-imgbox img {
+  width: 100%;
+  display: block;
+}
+
+#stylist .menus {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#stylist .menus .supplement {
+  font-size: 11px;
+  font-weight: 100;
+  line-height: 1.4;
+  display: inline-block;
+  margin: 6px auto;
+}
+
+#stylist .menus .menu-book-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin: 2rem auto;
+  font-size: 14px;
+}
+
+#stylist .menus .menu-book-wrapper .menu {
+  color: black;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+#stylist .menus .menu-book-wrapper .menu span {
+  font-size: 13px;
+}
+
+#stylist .menus .menu-book-wrapper .supplement-box {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+#stylist .salon-look .stylist-imgbox {
+  width: 100%;
+}
+
+#stylist .info-buttons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+#stylist .info-buttons .button {
+  padding: 6px;
+}
+
+#stylist .info-buttons .button .tel,
+#stylist .info-buttons .button .book-instagram,
+#stylist .info-buttons .button .google-map {
+  border: solid 1px black;
+  height: 38px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 38px;
+  color: black;
+}
+/*# sourceMappingURL=stylist.css.map */

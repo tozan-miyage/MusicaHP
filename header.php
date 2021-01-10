@@ -30,7 +30,7 @@
             <div class="row header">
                 <div class="col-12 header-wrapper">
                     <div class="main-logo">
-                        <h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Musica_logo_new.jpg" alt="Musicaのロゴマーク"></h1>
+                        <h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/Musica_logo_new.jpg" alt="Musicaのロゴマーク"></h1>
                     </div>
                 </div>
             </div>
@@ -46,6 +46,6 @@
                         <li>schedule</li>
                     </ul>
                 </div>
-                <div class="next-btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/right-arrow-icon.svg" alt=""></i></div>
+                <div class="next-btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/right-arrow-icon.svg" alt=""></i></div>
             </div>
         </header>

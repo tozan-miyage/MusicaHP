@@ -24,7 +24,7 @@ footer .info-buttons .button {
 footer .info-buttons .button .tel,
 footer .info-buttons .button .book-instagram,
 footer .info-buttons .button .google-map {
-  border: solid 1px gray;
+  border: solid 1px black;
   height: 38px;
   font-size: 12px;
   text-align: center;

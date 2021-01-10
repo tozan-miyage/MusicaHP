@@ -1,0 +1,91 @@
+#stylist {
+  line-height: 1.4;
+
+  .content-wrapper {
+    margin-top: 2rem;
+    .content-headding {
+      p {
+        text-align: center;
+        margin: 1rem 0;
+        font-size: small;
+      }
+    }
+  }
+
+  #self-introduction {
+    margin-top: 3rem;
+  }
+
+  .stylist-imgbox {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 300px;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .menus {
+    text-align: center;
+    margin-top: 2rem;
+    .supplement {
+      font-size: 11px;
+      font-weight: 100;
+      line-height: 1.4;
+      display: inline-block;
+      margin: 6px auto;
+    }
+
+    .menu-book-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      width: 80%;
+      margin: 2rem auto;
+      font-size: 14px;
+
+      .menu {
+        color: black;
+        flex-basis: 100%;
+
+        span {
+          font-size: 13px;
+        }
+      }
+
+      .supplement-box {
+        flex-basis: 100%;
+      }
+    }
+  }
+  .salon-look {
+      .stylist-imgbox{
+          width: 100%;
+      }
+  }
+
+
+
+  .info-buttons {
+    justify-content: center;
+    margin-top: 2rem;
+
+    .button {
+      padding: 6px;
+
+      .tel,
+      .book-instagram,
+      .google-map {
+        border: solid 1px black;
+        height: 38px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 38px;
+        color: black;
+      }
+    }
+  }
+}
