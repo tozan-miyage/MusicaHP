@@ -1,0 +1,17 @@
+#googlemap {
+  .googlemap-box {
+    margin-top: 2rem;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 66.25%;
+    position: relative;
+
+    iframe {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
